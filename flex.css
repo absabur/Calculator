@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+  background-color: gray;
+  }
+  .calbody{
+    height: 550px;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    margin:50px auto;
+    position: relative;
+    border: 5px solid rgb(100, 206, 78);
+    border-radius: 5px;
+    transition: all 1s;
+  }
+.calbody:hover{
+  box-shadow: 0 8px 26px rgb(0, 0, 0);
+  
+}
+.display{
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  top: 5px;
+  align-items: center;
+  display: block;
+
+}
+.display input{
+  height: 100%;
+  width: 95%;
+  margin: 3px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#result{
+  display: flex;
+}
+p{
+  /* flex: 1; */
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 10px 5px;
+  overflow: auto;
+}
+.clear{
+  content: "";
+  clear: both;
+}
+.button{
+  position: absolute;
+  padding: 10px 0;
+  bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.button > .btn{
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: black;
+  border: 3px solid orange;
+  border-radius: 5px;
+  padding: 5px;
+  margin:2px 1px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button > .btn:hover{
+  background-color: magenta;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  color: aliceblue;
+}
